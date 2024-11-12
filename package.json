@@ -1,0 +1,55 @@
+{
+  "name": "ajs_12_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "jest --coverage",
+    "show:dist": "live-server dist",
+    "show:coverage": "live-server coverage/lcov-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maksim-Gavr-04/ajs_12_typescript.git"
+  },
+  "author": "Maksim-Gavr-04",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maksim-Gavr-04/ajs_12_typescript/issues"
+  },
+  "homepage": "https://github.com/Maksim-Gavr-04/ajs_12_typescript#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
+    "@eslint/js": "^9.14.0",
+    "@stylistic/eslint-plugin": "^2.10.1",
+    "@types/eslint__js": "^8.42.3",
+    "@types/jest": "^29.5.14",
+    "babel-jest": "^29.7.0",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.14.0",
+    "globals": "^15.12.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "jest": "^29.7.0",
+    "live-server": "^1.2.2",
+    "mini-css-extract-plugin": "^2.9.2",
+    "ts-jest": "^29.2.5",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.13.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "core-js": "^3.39.0"
+  }
+}
