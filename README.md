@@ -1,6 +1,6 @@
 # Домашнее задание к лекции `TypeScript`
 
-
+[![Build status](https://ci.appveyor.com/api/projects/status/7ytx43swyjw4aooo?svg=true)](https://ci.appveyor.com/project/Maksim-Gavr-04/ajs-12-typescript)
 
 **Важно**: все задачи допустимо выполнять в одном GitHub репозитории.
 
